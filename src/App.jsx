@@ -1,21 +1,17 @@
-import { NavBar } from './components/NavBar'
-import { Home } from './components/home'
-import { About } from './components/About'
-import { Techs } from './components/Techs'
-import { Contact } from './components/Contact'
-import { Footer } from './components/Footer'
+import { AboutMe } from "./components/Aboutme"
+import { Home } from "./components/Home"
+import { Navigation } from "./components/NavBar"
+
+
 
 function App() {
 
 
   return (
-    <div style={{backgroundColor:"#020503"}}>
-      <NavBar/>
+    <div style={{backgroundColor:"#011628"}}>
+      <Navigation/>
       <Home/>
-      <About/>
-      <Techs/>
-      <Contact/>
-      <Footer />
+      <AboutMe/>
     </div>
   )
 }
